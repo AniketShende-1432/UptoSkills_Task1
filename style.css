@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin:0;
+}
+h3{
+    padding: 0;
+    margin:0; 
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    background-color: crimson;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: calibri;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    font-weight:500;
+    color:white;
+}
+.Reglo{
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    color: crimson;
+}
+li a{
+    color:white;
+    font-weight : bold;
+    margin-right: 25px;
+    font-size: 18px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+    color:crimson;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.box-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:73vh;
+}
+.box{
+    padding:20px;
+    margin:40px;
+    border-radius: 8px;
+    box-shadow:-1px 0 10px;
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+    display:none;
+}
+button{
+    padding:5px;
+    border-radius: 4px;
+    font-size: 14px;
+    border-style: none;
+    background-color: crimson;
+    color:white;
+}
+footer{
+    font-size: 18px;
+    background-color: rgb(226, 70, 101);
+    padding:15px;
+    text-align: center;
+    color:white;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>UptoSkills_Task1</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><h3>UptoSkills</h3></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">AboutUs</a></li>
+                <li><a href="#">ContactUs</a></li>
+                <li><a class ="Reglo" href="#">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Ready To Learn !</h1>
+    <div class="box-card">
+        <div class="box">
+            <img src="https://img.icons8.com/?size=100&id=40670&format=png&color=000000" alt="image">
+            <h2>C programming</h2>
+            <p class="showme">General-purpose, procedural language
+                Developed by Dennis Ritchie in the 1970s at Bell Labs
+                Known for efficiency and low-level memory access
+                Ideal for system-level programming (e.g., operating systems, embedded systems)
+                Highly portable due to standardized libraries and compilers</p>
+            <button onclick="Show(this)">Learn More</button>
+        </div>
+        <div class="box">
+            <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="">
+            <h2>Java</h2>
+            <p class="showme">General-purpose, object-oriented language
+                Developed by James Gosling and released by Sun Microsystems in 1995
+                Known for its platform independence due to the Java Virtual Machine (JVM)
+                Ideal for building cross-platform applications</p>
+            <button onclick="Show(this)">Learn More</button>
+        </div>
+        <div class="box">
+            <img src="https://img.icons8.com/?size=100&id=l75OEUJkPAk4&format=png&color=000000" alt="">
+            <h2>Python</h2>
+            <p class="showme">General-purpose, high-level language
+                Developed by Guido van Rossum and first released in 1991
+                Known for its simplicity and readability
+                Emphasizes code readability with its use of significant whitespace
+                Extensive standard library and large ecosystem of third-party packages
+            </p>
+            <button onclick="Show(this)">Learn More</button>
+        </div>
+    </div>
+    <footer>
+        <h3>UptoSkills &copy; Aniket Shende</h3>
+    </footer>
+    <script>
+        var display=0;
+        function Show(button){
+            var parent = button.parentNode;
+            var show = parent.querySelector('.showme');
+            if(display==0)
+            {
+                show.style.display='block';
+                display=1;
+            }
+            else{
+                show.style.display='none';
+                display=0;
+            }
+        }
+    </script>
+</body>
+</html>
